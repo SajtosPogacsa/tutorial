@@ -8,4 +8,5 @@ Git Segédlet
 -git init                          # Könyvtár inicializálása git mappává
 -git config --global --list        # Globális beállítások listázása
 -git status                        # Munkamenet jelenlegi állapotának lekérdezése
--git add readme.md                 # readme.md fájl stageelése
+-git add readme.md                 # readme.md fájl stage-elése
+-git commit -m "first commit"      # Stage-elt változások commit-elése "first commit" üzenettel
