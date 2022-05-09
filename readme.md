@@ -12,7 +12,7 @@ Git Segédlet
 -git commit -m "first commit"      # Stage-elt változások commit-elése "first commit" üzenettel
 -git remote add origin [link]      # Összekapcsolás origin néven a címben lévő repoval
 -git remote -v                     # Távoli repo ellenőrzése
--git push -u origin main           # Feltöltés, -u ha először töltünk föl
-
+-git push -u origin master         # Feltöltés, -u ha először töltünk föl
+-git pull                          # Letöltés
 
 -git remote remove origin          # Origin törlése
